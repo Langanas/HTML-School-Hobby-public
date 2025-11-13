@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Langanas">
+    <title>Event Registrator</title>
+</head>
+    <body>
+        <div>
+            <h1>CES</h1>
+            <p>The world’s most powerful tech event is your place to experience the innovations transforming how we live.</p>
+            <img src="https://www.eventsforgamers.com/wp-content/uploads/2025/09/CES-2026.jpg" width="400" height="225">
+        </div>
+        <div>
+            <h2>Event Schedule</h2>
+            <table border="1">
+                <tr>
+                    <th>Date</th>
+                    <th>All Activities</th>
+                    <th>Day Specifick Activities</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>6th of January</td>
+                    <td rowspan="4">Exhibits, <br>Keynotes,<br>Conference Sessions,<br>"Great Minds" and "Research Summit" Sessions,<br>Show Floor Tours,<br>Eureka Park,<br>Networking</td>
+                    <td rowspan="2">Media Events</td>
+                    <td rowspan="4">Las Vegas</td>
+                </tr>
+                <tr>
+                    <td>7th of January</td>
+                <tr>
+                    <td>8th of January</td>
+                    <td rowspan="2">No day specifick activities</td>
+                </tr>
+                <tr>
+                    <td>9th of January</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>Register Now</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enterr your email"><br><br>
+
+                <!-- Choose a date(s) for registration -->
+                <label for="date">Choose a date:</label><br>
+                <input type="checkbox" name="6th" id="6th">
+                <label for="6th">6th of January</label><br>
+                <input type="checkbox" name="7th" id="7th">
+                <label for="7th">7th of January</label><br>
+                <input type="checkbox" name="8th" id="8th">
+                <label for="8th">8th of January</label><br>
+                <input type="checkbox" name="9th" id="9th">
+                <label for="9th">9th of January</label><br><br>
+
+                <!-- Agree to terms and conditions -->
+                <input type="radio" name="T&C" id="TC">
+                <label for="TC">I agree to the terms and conditions</label><br><br>
+
+                <!-- Button to submit registration -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
