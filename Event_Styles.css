@@ -1,0 +1,56 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    font-family: Vremena Grotesk, sans-serif;
+    color: #292f6f;
+}
+
+h2 {
+    font-family: Vremena Grotesk, sans-serif;
+    color: #131637;
+}
+
+p {
+    font-family: Vremena Grotesk, sans-serif;
+    font-size: 18px;
+    color: #131637;
+}
+
+table {
+    font-family: Vremena Grotesk, sans-serif;
+    color: #131637;
+    border-color: black;
+}
+
+div_registration {
+    font-family: Vremena Grotesk, sans-serif;
+    color: #131637;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+    font-family: Vremena Grotesk, sans-serif;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: white;
+}
+button:active {
+    background-color: red;
+    color: white;
+}
+
