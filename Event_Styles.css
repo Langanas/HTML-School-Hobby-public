@@ -38,7 +38,7 @@ div_registration {
 button {
     font-family: Vremena Grotesk, sans-serif;
     color: white;
-    background-color: blue;
+    background-color: #455fe3;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: white;
+    background-color: #506ce6;
 }
 button:active {
     background-color: red;
