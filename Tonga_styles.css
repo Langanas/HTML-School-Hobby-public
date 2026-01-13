@@ -22,3 +22,48 @@ a {
     margin: 10px;
     color: red;
 }
+
+.welcome {
+    padding-top: 10vh;
+}
+
+.about {
+    padding: 20px;
+    max-width: 100%;
+}
+
+h2 {
+    color: cadetblue;
+}
+
+p {
+    color: cadetblue;
+}
+
+img {
+    width: 40vw;
+    float: right;
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30vh;
+}
+
+@media (max-width: 400px) {
+    .menu {
+        padding: 10px;
+    }
+
+    img {
+        float: none;
+        width: 80vw;
+    }
+
+    .contact {
+        height: auto;
+    }
+}
